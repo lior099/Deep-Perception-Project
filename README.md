@@ -14,12 +14,30 @@ MyPascalDataset(root='MyVOC2012', year='2012', image_set='train', download=True,
 The folowing packages were used by us in this poject:
 
 •csv
+
 •os
+
 •copy 
+
+•numpy 
+
+•torch
+
+•PIL
+
 •
+
 •
+
 •
+
 •
+
 •
+
 •
+
 •
+
+•
+
