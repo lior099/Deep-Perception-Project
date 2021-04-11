@@ -8,9 +8,18 @@ The project is about trying to implement the SimCLR model as a backbone to the F
 
 The dataset used in this project is the Pascal VOC 2012, dowoaded in the main.py file with the following command:
 ```
-print()
+MyPascalDataset(root='MyVOC2012', year='2012', image_set='train', download=True, transforms=get_transform(train=True))
 ```
 
-```
-print()
-```
+The folowing packages were used by us in this poject:
+
+•csv
+•os
+•copy 
+•
+•
+•
+•
+•
+•
+•
