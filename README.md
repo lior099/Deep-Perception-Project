@@ -13,31 +13,25 @@ MyPascalDataset(root='MyVOC2012', year='2012', image_set='train', download=True,
 
 The folowing packages were used by us in this poject:
 
-•csv
+• csv
 
-•os
+• os
 
-•copy 
+• copy 
 
-•numpy 
+• numpy 
 
-•torch
+• torch
 
-•PIL
+• PIL
 
-•
+• matplotlib 
 
-•
+• torchvision
 
-•
+• xml
 
-•
+• pytorchcv
 
-•
-
-•
-
-•
-
-•
+• pl_bolts
 
