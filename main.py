@@ -180,15 +180,8 @@ def plot_graph(path, color, x_label, y_label, save_path=None, index=1, title='')
 
 
 if __name__ == '__main__':
-    plot_graph('loss_lr_0.03_gamma_0.8_momentum_0.9.csv', 'blue', 'Epochs', 'Learning Rate', save_path='lr.png', index=1, title="Learning Rate as a Function of Epochs")
-    plot_graph('loss_lr_0.03_gamma_0.8_momentum_0.9.csv', 'blue', 'Epochs', 'Loss', save_path='loss.png', index=2, title="Loss as a Function of Epochs")
-    plot_graph('loss_lr_0.03_gamma_0.8_momentum_0.9.csv', 'blue', 'Epochs', 'Classifier Loss', save_path='loss_classifier.png', index=3, title="Classifier Loss as a Function of Epochs")
-    plot_graph('loss_lr_0.03_gamma_0.8_momentum_0.9.csv', 'blue', 'Epochs', 'Box Regression Loss', save_path='loss_box_reg.png', index=4, title="Box Regression Loss as a Function of Epochs")
-    plot_graph('loss_lr_0.03_gamma_0.8_momentum_0.9.csv', 'blue', 'Epochs', 'Objectness Loss', save_path='loss_objectness.png', index=5, title="Objectness Loss as a Function of Epochs")
-    plot_graph('loss_lr_0.03_gamma_0.8_momentum_0.9.csv', 'blue', 'Epochs', 'RPN Box Regression Loss', save_path='loss_rpn_box_reg.png', index=6, title="RPN Box Regression Loss as a Function of Epochs")
-    plot_graph('acc_lr_0.03_gamma_0.8_momentum_0.9.csv', 'blue', 'Epochs', 'Accuracy', save_path='acc.png', title="Accuracy as a Function of Epochs")
-    # momentum = 0.9
-    # lr = 0.03
-    # gamma = 0.8
-    # run("my_fasterrcnn", momentum=momentum, lr=lr, gamma=gamma)
+    momentum = 0.9
+    lr = 0.03
+    gamma = 0.8
+    run("my_fasterrcnn", momentum=momentum, lr=lr, gamma=gamma)
 
