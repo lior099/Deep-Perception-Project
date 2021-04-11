@@ -35,3 +35,16 @@ The folowing packages were used by us in this poject:
 
 • pl_bolts
 
+
+# How To Run?
+Just run the following command inside main.py:
+
+```
+run("my_fasterrcnn", momentum=momentum, lr=lr, gamma=gamma)
+```
+
+Notice that there are some extra options, for example:
+
+```
+run(model_name, batch_size=4, gpu="0", lr=0.005, gamma=0.5, momentum=0.9)
+```
