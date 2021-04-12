@@ -36,6 +36,8 @@ The folowing packages were used by us in this poject:
 • pl_bolts
 
 
+Some of our code was taken from https://github.com/pytorch/vision/tree/master/references/detection
+
 # How To Run?
 Just run the following command inside main.py:
 
